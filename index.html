@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do You Love Me?</title>
-    <script>
-        function handleResponse(response) {
-            if (response === "yes") {
-                document.getElementById("message").innerText = "I love you!";
-            } else {
-                document.getElementById("message").innerText = "";
-            }
+    <title>I Love You</title>
+    <style>
+        body {
+            background-color: #ffebf0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-    </script>
+        .container {
+            text-align: center;
+            color: #ff0066;
+            font-size: 2em;
+            border: 2px solid #ff66a3;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-    <h1>Do you love me?</h1>
-    
-    <!-- Two buttons for Yes and No -->
-    <button onclick="handleResponse('yes')">Yes</button>
-    <button onclick="handleResponse('no')">No</button>
-    
-    <!-- The message that will appear based on the response -->
-    <p id="message"></p>
+    <div class="container">
+        <h1>I ❤️ You</h1>
+        <p>You are very special to me!
+            you are critical to me!🥰
+        </p>
+    </div>
 </body>
 </html>
